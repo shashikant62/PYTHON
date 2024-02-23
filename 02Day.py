@@ -1,0 +1,22 @@
+#mini-calculator
+a=10 
+b=20
+ans = input("Enter ans:")
+if(ans=='+'):{
+print(a+b)
+}
+elif(ans=="-"):{
+print(a-b)
+}
+elif(ans=="/"):{
+print(a/b)
+}
+elif(ans=="//"):{
+print(a//b)
+}
+elif(ans=="**"):{
+print(a**b)
+}
+else:{
+    print("ERROR")
+}
